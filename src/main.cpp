@@ -7,7 +7,7 @@ int main()
 {
     Mat image;
     image = cv::imread("wallhaven-o5ov3l.jpg");
-    namedWindow("Goddamn Hippies", WINDOW_AUTOSIZE );
+    namedWindow("Goddamn Hippies", WINDOW_NORMAL );
     imshow("Goddamn Hippies", image );
 
     waitKey(0);
