@@ -14,3 +14,7 @@ C:\msys64\mingw64\bin
 C:\opencv\build\x64\mingw64\bin
 ensure that you have an gcc.exe and a gdb.exe in C:\msys64\mingw64\bin
 clone the main branch of this repo and try running it to ensure that you have acces to opencv and that you env is well set
+
+
+credit to nicolas alfonsi
+i followed his tutorial : https://www.nicolasalfonsi.com/technology/tuto-configurer-vscode-opencv-en-cpp-mingw-w64-windows.html
