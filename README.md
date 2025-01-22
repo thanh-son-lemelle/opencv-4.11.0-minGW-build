@@ -1,6 +1,6 @@
 ﻿# opencv-4.11.0-minGW-build
 
-dowload buile files with the following link
+download build files with the following link
 https://github.com/thanh-son-lemelle/opencv-4.11.0-minGW-build/releases/download/v4.11.0/opencv.zip
 unzip it in your root system
 you should have something like this : C:\opencv\build\x64\mingw64\bin
@@ -13,3 +13,4 @@ enter the following env variables into the PATH of your system
 C:\msys64\mingw64\bin
 C:\opencv\build\x64\mingw64\bin
 ensure that you have an gcc.exe and a gdb.exe in C:\msys64\mingw64\bin
+clone the main branch of this repo and try running it to ensure that you have acces to opencv and that you env is well set
