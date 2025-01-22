@@ -1,0 +1,39 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "build",
+			"command": "g++",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+                "src\\main.cpp",
+                "-o",
+                "main.exe",
+                "-IC:\\opencv\\build\\include",
+                "-LC:\\opencv\\build\\x64\\mingw64\\lib",
+                "C:\\opencv\\build\\x64\\mingw64\\lib\\libopencv_calib3d4110.dll.a",
+                "C:\\opencv\\build\\x64\\mingw64\\lib\\libopencv_core4110.dll.a",
+                "C:\\opencv\\build\\x64\\mingw64\\lib\\libopencv_dnn4110.dll.a",
+                "C:\\opencv\\build\\x64\\mingw64\\lib\\libopencv_features2d4110.dll.a",
+                "C:\\opencv\\build\\x64\\mingw64\\lib\\libopencv_flann4110.dll.a",
+                "C:\\opencv\\build\\x64\\mingw64\\lib\\libopencv_highgui4110.dll.a",
+                "C:\\opencv\\build\\x64\\mingw64\\lib\\libopencv_imgcodecs4110.dll.a",
+                "C:\\opencv\\build\\x64\\mingw64\\lib\\libopencv_imgproc4110.dll.a",
+                "C:\\opencv\\build\\x64\\mingw64\\lib\\libopencv_ml4110.dll.a",
+                "C:\\opencv\\build\\x64\\mingw64\\lib\\libopencv_objdetect4110.dll.a",
+                "C:\\opencv\\build\\x64\\mingw64\\lib\\libopencv_photo4110.dll.a",
+				"C:\\opencv\\build\\x64\\mingw64\\lib\\libopencv_ts4110.a",
+				"C:\\opencv\\build\\x64\\mingw64\\lib\\libopencv_videoio4110.dll.a",
+                "C:\\opencv\\build\\x64\\mingw64\\lib\\libopencv_stitching4110.dll.a",
+                "C:\\opencv\\build\\x64\\mingw64\\lib\\libopencv_video4110.dll.a",
+				"C:\\opencv\\build\\x64\\mingw64\\lib\\libopencv_gapi4110.dll.a",
+			],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+		}
+	]
+}
